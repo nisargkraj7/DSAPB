@@ -159,7 +159,7 @@ int main()
     char *ptr;
     char *words[7000];
     FILE * fp = fopen("newyes.txt", "r");
-    fgets(str, 7000, fp);             // read 49 characters
+    fgets(str, 7000, fp);             // read characters
     ptr = strtok(str, "\n\r\n ");         // split our findings around the " "
     int i = 0;
     while(ptr != NULL)  // while there's more to the string
